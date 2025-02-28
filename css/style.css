@@ -1,0 +1,122 @@
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.padre {
+    position: relative;
+    background-color: orange ;
+    width: 400px;
+    height: 600px;
+}
+.uno, .dos {
+    background-color: rgb(60, 0, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+.oreja , .oreja2{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
+}
+.oreja{
+    top: 20px;
+    left: 22px;
+}
+.oreja2{
+    top: 20px;
+    left: 26px;
+}
+.uno {
+    top: 50px;
+    left: 80px;
+}
+.dos {
+    top: 50px;
+    left: 220px;
+}
+.tres {
+    background-color: rgb(60, 0, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.ojo1, .ojo2{
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+}
+.ojo1{
+    top: 50px;
+    left: 125px;
+}
+.ojo2{
+    top: 10px;
+    left: 40px;
+}
+.boca{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.cuatro {
+    background-color: rgb(60, 0, 255);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+    left: 75px;
+}
+.hcuatro{
+    background-color: yellowgreen;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.brazo-izq, .brazo-der {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 320px;
+}
+.brazo-izq {
+    left:15px;
+}
+.brazo-der {
+    left: 285px;
+}
+.pierna-izq, .pierna-der {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+}
+.pierna-izq {
+    left: 90px;
+}
+.pierna-der {
+    left: 250px;
+}
